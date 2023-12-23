@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2{
+  margin-bottom: 20px;
+  color: rgb(97, 10, 179);
+}
+
+button{
+    padding: 5px;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#result{
+    margin-bottom: 10px;
+}
